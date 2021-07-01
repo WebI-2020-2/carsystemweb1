@@ -1,0 +1,99 @@
+@import './modal.css';
+
+#funcionarios{
+  background-color: rgba(8, 87, 235, 0.47);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#funcionarios a{
+  color: #fff;
+}
+
+main header {
+  grid-template-columns: 10% 1fr;
+}
+
+main header h1 {
+  justify-self: center;
+  padding-right: 10vw;
+}
+
+main .content {
+  height: 90%;
+  margin-top: 1%;
+}
+
+main .content .conteudo-cadastro {
+  display: grid;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2.5% 5%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(12, 12%, 20%);
+  column-gap: 15px;
+  grid-template-areas:
+  'label1 label1'
+  'nome nome'
+  'label2 label3'
+  'nivelAcesso cpf'
+  'label4 label5'
+  'usuario senha'
+  'label6 label7'
+  'email email';
+}
+
+#nome{
+  grid-area: nome;
+}
+
+#nivelAcesso{
+  grid-area: nivelAcesso;
+}
+
+#cpf{
+  grid-area: cpf;
+}
+
+#usuario{
+  grid-area: usuario;
+}
+
+#senha{
+  grid-area: senha;
+}
+
+#email{
+  grid-area: email;
+}
+
+.label7{
+  grid-area: label7;
+}
+
+main .content .conteudo-cadastro select {
+  width: 80%;
+  height: 70%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: var(--branco);
+  background-color: #A0A0A0;
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 10%;
+}
+
+.conteudo-cadastro{
+  overflow-y: scroll;
+}
+
+.conteudo-cadastro input{
+  margin-bottom: 30px;
+}

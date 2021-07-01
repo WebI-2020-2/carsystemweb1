@@ -1,0 +1,88 @@
+@import './modal.css';
+
+#produtos {
+  background-color: rgba(8, 87, 235, 0.47);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#produtos a {
+  color: #fff;
+}
+
+main header {
+  grid-template-columns: 10% 1fr;
+}
+
+main header h1 {
+  justify-self: center;
+  padding-right: 10vw;
+}
+
+main .content {
+  height: 90%;
+  margin-top: 1%;
+}
+
+main .content .conteudo-cadastro {
+  display: grid;
+  width: 90%;
+  height: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2.5% 5%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 12% 20% 12% 20% 12% 20%;
+  column-gap: 12px;
+  overflow-y: scroll;
+  grid-template-areas:
+  'label1 label1'
+  'nome nome'
+  'label2 label3'
+  'ano valor-venda'
+  'label4 label5'
+  'cor marca'
+  'label6 label7'
+  'quantidade quantidade';
+}
+
+#nome {
+  grid-area: nome;
+}
+
+#ano {
+  grid-area: ano;
+}
+
+#valor_venda {
+  grid-area: valor-venda;
+}
+
+#cor {
+  grid-area: cor;
+}
+
+#marca {
+  grid-area: marca;
+}
+
+#quantidade {
+  grid-area: quantidade;
+}
+
+main .content .conteudo-cadastro select {
+  width: 80%;
+  height: 70%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: var(--branco);
+  background-color: var(--cinza-escuro);
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-left: 10%;
+}

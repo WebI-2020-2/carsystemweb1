@@ -1,0 +1,54 @@
+@import './modal.css';
+
+#promocoes{
+  background-color: rgba(8, 87, 235, 0.47);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#promocoes a{
+  color: #fff;
+}
+
+main header {
+  grid-template-columns: 10% 1fr;
+}
+
+main header .header-conteudo {
+  display: flex;
+  padding-right: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnAcao{
+  width: 10%;
+}
+
+.btnEditar{
+  text-decoration: none;
+  color: var(--branco);
+  background-color: var(--cinza-claro);
+  border-radius: 5px;
+  border: none;
+  height: 2vw;
+  width: 4vw;
+  cursor: pointer;
+}
+
+.btnDeletar{
+  text-decoration: none;
+  color: var(--laranja);
+  background-color: var(--cinza-claro);
+  border-radius: 5px;
+  border: none;
+  height: 2vw;
+  width: 4vw;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,96 @@
+@import './modal.css';
+
+.container1{
+  width: 50%;
+  overflow: hidden;
+}
+
+.homem{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.logo{
+  width: 40%;
+}
+
+.formularioLogin{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+
+.inputContainer{
+  width: 60%;
+  height: 3.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.inputIcon{
+  position: absolute;
+  left: 3%;
+  color: var(--preto);
+}
+
+.input{
+  width: 100%;
+  height: 100%;
+  padding-left: 2.5rem;
+  background: var(--branco);
+  border-radius: 15px;
+  color: var(--preto);
+  font-size: 1rem;
+  border: none;
+  box-shadow: 1px 1px 15px #c5c5c5;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}  
+
+button.input{
+  width: 60%;
+  height: 3.5rem;
+  padding: 0;
+  background-color: var(--azul-escuro);
+  margin-bottom: 15px;
+  color: var(--preto);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.esqueciSenha{
+  text-decoration: none;
+  color: var(--verde);
+  display: flex;
+  align-items: center;
+}
+.message{
+  margin: 1.3rem;
+  color: var(--laranja);
+}
+@media screen and (max-width: 900px){
+  .container{
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    width: 100vw;
+  }
+}

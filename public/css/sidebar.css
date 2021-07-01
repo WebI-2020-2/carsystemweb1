@@ -1,0 +1,117 @@
+@import "./global.css";
+
+.sidebar-menu {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--azul);
+}
+
+.sidebar-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.logo-container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-toggle {
+  display: block;
+  color: white;
+  align-self: flex-end;
+  margin: 1rem;
+}
+
+.menu-list {
+  width: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+.menu-option {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-option:hover {
+  background-color: #00296b;
+  transition: all 0.4s;
+  width: 100%;
+  border-radius: 15px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.logout {
+  display: flex;
+  flex: auto;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+a svg {
+  height: 1.5vw;
+  margin: 0 1vw;
+  
+}
+
+.sidebar-menu.disabled {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar-menu {
+    width: 40%;
+  }
+  .menu-list {
+    font-size: 3vw;
+  }
+  .logout {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar-menu {
+    width: 75%;
+    position: fixed;
+    left: 0;
+  }
+  .menu-list {
+    font-size: 5vw;
+  }
+  .logout {
+    font-size: 5vw;
+  }
+  a svg {
+  height: 5vw;
+  margin: 0 2.5vw;
+  }
+}
