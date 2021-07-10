@@ -22,13 +22,13 @@
     Route::post('/update/product', 'ProductController@update');
     Route::get('/delete/product', 'ProductController@delete');
 
-    // Rotas de categoria
-    Route::get('/category', 'CategoryController@show');
-    Route::get('/add/category', 'CategoryController@index');
-    Route::post('/adding/category', 'CategoryController@store');
-    Route::get('/edit/category','CategoryController@edit');
-    Route::post('/update/category','CategoryController@update');
-    Route::get('/delete/category', 'CategoryController@delete');
+    // // Rotas de categoria
+    // Route::get('/category', 'CategoryController@show');
+    // Route::get('/add/category', 'CategoryController@index');
+    // Route::post('/adding/category', 'CategoryController@store');
+    // Route::get('/edit/category','CategoryController@edit');
+    // Route::post('/update/category','CategoryController@update');
+    // Route::get('/delete/category', 'CategoryController@delete');
 
     // Rotas de cliente
     Route::get('/client','ClientController@show');
@@ -69,21 +69,21 @@
     Route::get('/getAllProviders', 'ProviderController@getAllProviders');
     Route::post('/getProviderByName', 'ProviderController@getProviderByName');
 
-    // Rotas de promoções
-    Route::get('/add/promotion', 'PromotionController@index');
-    Route::post('/adding/promotion', 'PromotionController@store');
-    Route::get('/promotion', 'PromotionController@show');
-    Route::get('/edit/promotion', 'PromotionController@edit');
-    Route::post('/update/promotion', 'PromotionController@update');
-    Route::get('/delete/promotion', 'PromotionController@delete');
+    // // Rotas de promoções
+    // Route::get('/add/promotion', 'PromotionController@index');
+    // Route::post('/adding/promotion', 'PromotionController@store');
+    // Route::get('/promotion', 'PromotionController@show');
+    // Route::get('/edit/promotion', 'PromotionController@edit');
+    // Route::post('/update/promotion', 'PromotionController@update');
+    // Route::get('/delete/promotion', 'PromotionController@delete');
     
-    // Rotas de produto promoção
-    Route::get('/add/promotion-product', 'PromotionProductController@index');
-    Route::post('/adding/promotion-product', 'PromotionProductController@store');
-    Route::get('/promotion-product', 'PromotionProductController@show');
-    Route::get('/edit/promotion-product', 'PromotionProductController@edit');
-    Route::post('/update/promotion-product', 'PromotionProductController@update');
-    Route::get('/delete/promotion-product', 'PromotionProductController@delete');
+    // // Rotas de produto promoção
+    // Route::get('/add/promotion-product', 'PromotionProductController@index');
+    // Route::post('/adding/promotion-product', 'PromotionProductController@store');
+    // Route::get('/promotion-product', 'PromotionProductController@show');
+    // Route::get('/edit/promotion-product', 'PromotionProductController@edit');
+    // Route::post('/update/promotion-product', 'PromotionProductController@update');
+    // Route::get('/delete/promotion-product', 'PromotionProductController@delete');
 
 
     // Rotas de compra

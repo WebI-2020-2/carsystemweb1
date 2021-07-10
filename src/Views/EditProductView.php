@@ -38,17 +38,9 @@ class EditProductView
                             <input type="text" name="valorVenda" id="valorVenda" value="<?php echo $params['product']['valorVenda']; ?>">
                             <label for="cor" class="label4">Cor</label>
                             <input type="text" name="cor" id="cor" value="<?php echo $params['product']['cor']; ?>">
-                            <label for="categoria" class="label5">Categoria</label>
-                            <select name="categoria" id="categoria">
-                                <option disabled>Selecione uma opção</option>
-                                <?php
-                                foreach ($params['categories'] as $category) {
-                                    echo "<option value='{$category['id']}'" . ($params['product']['idCategoria'] == $category['id'] ? ' selected ' : '') . ">{$category['nome']}</option>";
-                                } ?>
-                            </select>
-                            <label for="marca" class="label6">Marca</label>
+                            <label for="marca" class="label5">Marca</label>
                             <input type="text" name="marca" id="marca" value="<?php echo $params['product']['marca']; ?>">
-                            <label for="quantidade" class="label7">Quantidade</label>
+                            <label for="quantidade" class="label6">Quantidade</label>
                             <input type="text" name="quantidade" id="quantidade" value="<?php echo $params['product']['quantidade']; ?>">
                         </div>
                         <div class="botoes">

@@ -6,8 +6,6 @@
     class ProductController{
         public function index(){
             if($_SESSION['dados_usuario']['nivelAcesso'] == 2){
-                $category = new CategoryModel();
-                $params['categories'] = $category->getAllCategories();
 
                 $product = new AddProductView($params);
             }else{
@@ -68,7 +66,6 @@
         public function edit($params){
             if($_SESSION['dados_usuario']['nivelAcesso'] == 2){
                 $product = new ProductModel();
-                $category = new CategoryModel();
                 $params['product'] = $product->getProductById($params);
                 $product = new EditProductView($params);
             }else{
