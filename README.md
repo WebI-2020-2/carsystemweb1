@@ -1,7 +1,5 @@
 # <strong>Carsystem</strong>
 
----
-
 > ## O que foi desenvolvido:
 
      Funcionalidades de venda (Adicionar);
