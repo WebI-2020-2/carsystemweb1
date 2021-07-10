@@ -1,6 +1,6 @@
 # Carsystem
 
-## O que foi desenvolvido:
+> O que foi desenvolvido:
 
 Funcionalidades de venda (Adicionar);
 
@@ -15,7 +15,7 @@ Funcionalidades de fornecedor(Adicionar, editar, excluir);
 Funcionalidades de funcionário(Adicionar, editar, excluir);
 
 
-## O que falta ser desenvolvido (próximos passos)
+> O que falta ser desenvolvido (próximos passos)
 
 Corrigir bugs no código;
 
