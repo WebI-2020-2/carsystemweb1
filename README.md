@@ -15,3 +15,6 @@
      Corrigir bugs no código;
      Retirada do caixa:
      Mudanças na forma de pagamento;
+     Mover Caixa de Cliente para cima;
+     Correções nos modais;
+     
