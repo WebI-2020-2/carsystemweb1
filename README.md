@@ -12,9 +12,9 @@
 
 > ## O que falta ser desenvolvido (próximos passos)
 
-     Corrigir bugs no código;
-     Retirada do caixa:
-     Mudanças na forma de pagamento;
+   * Corrigir bugs no código;
+   * Retirada do caixa:
+   * Mudanças na forma de pagamento;
      
 > ## Correções pedidas pelo professor
 
