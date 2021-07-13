@@ -18,7 +18,7 @@
      
 > ## Correções pedidas pelo professor
 
-    Mover Caixa de Cliente para cima;
-    Correções nos modais;
-    Ajustes no valor total;
+   * Mover Caixa de Cliente para cima;
+   * Correções nos modais;
+   * Ajustes no valor total;
      
