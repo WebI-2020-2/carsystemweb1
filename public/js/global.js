@@ -10,7 +10,7 @@ document.querySelectorAll('.menu-toggle').forEach(menu => {
   });
 });
 
-// Adicionar rota ao clicar no logo do sistema, redirecionando pro dashboard
+// Adicionar rota ao clicar no logo do bew, redirecionando pro dashboard
 document.querySelector('.logo-container .logo').addEventListener('click', () => {
   window.location.replace("/dashboard");
 })

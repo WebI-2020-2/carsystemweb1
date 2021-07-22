@@ -4,7 +4,7 @@
     <i class="menu-toggle" data-feather="arrow-left"></i>
     <div class="logo-container">
         <span class="logo">CARSYSTEM</span>
-        <!-- <img class="logo" src="/public/img/simbolo.png" alt="logo do sistema"> -->
+        <!-- <img class="logo" src="/public/img/simbolo.png" alt="logo do BEW"> -->
     </div>
     <ul class="menu-list">
         <li class="menu-option" id="vendas">

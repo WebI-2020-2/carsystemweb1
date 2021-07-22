@@ -13,7 +13,7 @@
         if(!is_null($message)){
             $_SESSION['message'] = $message;
         }
-        header('Location: ' .$location);
+        header('Location: '.$location);
     }
 
 ?>

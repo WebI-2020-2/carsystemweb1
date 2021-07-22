@@ -1,4 +1,3 @@
-
 <?php
     require_once(__DIR__.'/../autoload.php');
     class Route{
@@ -48,7 +47,7 @@
 
             }
             if($url == '/'){
-               return redirect('/login');
+                return redirect('/login');
             }
             if($notfound){
                 header("HTTP/1.0 404 Not Found");

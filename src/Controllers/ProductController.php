@@ -6,11 +6,10 @@
     class ProductController{
         public function index(){
             if($_SESSION['dados_usuario']['nivelAcesso'] == 2){
-
                 $category = new CategoryModel();
                 $params['categories'] = $category->getAllCategories();
+
                 $product = new AddProductView($params);
-                
             }else{
                 return redirect('/product','Usuário sem permissão.');
             }
