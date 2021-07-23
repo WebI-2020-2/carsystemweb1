@@ -41,9 +41,9 @@ main .content .conteudo-cadastro {
   'label1 label2'
   'nome cnpj'
   'label4 label5'
-  'telefone email'
+  'label6 email'
   'label3 label3'
-  'endereco endereco';
+  'label7 label7';
 }
 
 #nome {
@@ -55,11 +55,11 @@ main .content .conteudo-cadastro {
 }
 
 #endereco {
-  grid-area: endereco;
+  grid-area: label7;
 }
 
 #telefone {
-  grid-area: telefone;
+  grid-area: label6;
 }
 
 #email {

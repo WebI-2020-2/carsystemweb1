@@ -41,9 +41,9 @@ main .content .conteudo-cadastro {
   'label1 label2'
   'nome cpf'
   'label4 label5'
-  'telefone dataNascimento'
+  'label6 label7'
   'label3 label3'
-  'endereco endereco';
+  'label8 label9';
 }
 
 #nome {
@@ -54,14 +54,3 @@ main .content .conteudo-cadastro {
   grid-area: cpf;
 }
 
-#endereco {
-  grid-area: endereco;
-}
-
-#telefone {
-  grid-area: telefone;
-}
-
-#dataNascimento {
-  grid-area: dataNascimento;
-}
