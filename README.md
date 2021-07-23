@@ -1,6 +1,6 @@
 # Carsystem
 
-* Equipe: Monalyza, Jaqueline, Aldo Jonas, Lucas Samuel, Luis Felipe
+* ### Equipe: Monalyza, Jaqueline, Aldo Jonas, Lucas Samuel, Luis Felipe
 
 > ## O que falta ser desenvolvido (próximos passos)
    * Corrigir bugs no código;
