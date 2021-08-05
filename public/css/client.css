@@ -145,7 +145,7 @@ main header .header-conteudo {
   width: 20%;
   border: none;
   border-radius: 6px;
-  color: var(--laranja);
+  color: white;
   background-color: var(--cinza-escuro);
   margin-left: 80%;
 }

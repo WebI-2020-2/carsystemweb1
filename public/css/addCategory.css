@@ -1,0 +1,37 @@
+@import './modal.css';
+
+#categorias {
+  background-color: rgba(8, 102, 59, 0.47);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#categorias a {
+  color: #fff;
+}
+
+main header {
+  grid-template-columns: 10% 1fr;
+}
+
+main header h1 {
+  justify-self: center;
+  padding-right: 10vw;
+}
+
+main .content {
+  height: 90%;
+  margin-top: 1%;
+}
+
+main .content .conteudo-cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+}
