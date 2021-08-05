@@ -1,8 +1,6 @@
 <div align="center">
   
-<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/logo.png" width="250">  
-  
-# Carsystem
+<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/logo.png" width="250">
   
 </div>
 Carsystem é um sistema WEB de concessionária de automóveis desenvolvido para a disciplina de Laboratório de Programação WEB I do curso Tecnologia em Análise e Desenvolvimentos de Sistemas no Instituto Federal de Educação, Ciência e Tecnologia Baiano - Campus Guanambi.
