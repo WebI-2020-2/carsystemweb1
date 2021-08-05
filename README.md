@@ -22,11 +22,11 @@ As tecnologias abaixo foram utilizadas para o desenvolvimento do projeto:
 
 * Tela de Login
 
-<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/login.png" width="500">
+<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/login.png" width="800">
 
 * Tela Inicial
 
-<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/inicio.jpg" width="500">
+<img src="https://github.com/kazok1/carsystemweb1/blob/main/public/img/inicio.jpg" width="800">
 
 * O Layout completo pode ser acessado aqui: <a href="https://www.figma.com/file/JK2nf5dnbcsvqpXIelspwH/Car-System-1.1?node-id=0%3A1">Figma</a>.
 
