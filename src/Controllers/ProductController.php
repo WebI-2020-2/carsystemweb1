@@ -11,7 +11,6 @@
                 $params = null;
 
                 $product = new AddProductView($params);
-                var_dump($params);
             }else{
                 return redirect('/product','Usuário sem permissão.');
             }
@@ -39,7 +38,7 @@
                 if($resultValidation['success']){
                     $product = new ProductModel();
                     $result = $product->create($params);
-    
+
                     if($result){
                         return redirect('/product','Produto inserido com sucesso.');
                     }else{
@@ -48,7 +47,7 @@
                 }else{
                     return redirect('/product',$resultValidation['message']);
                 }
-            }else{  
+            }else{
                 return redirect('/product','Usuário sem permissão.');
             }
         }
@@ -98,7 +97,7 @@
                 'ID_do_produto' => 'required'
             );
             $resultValidation = validate($data,$validator);
-           
+
             if($_SESSION['dados_usuario']['nivelAcesso'] == 2){
                 if($resultValidation['success']){
                     $product = new ProductModel();
@@ -116,7 +115,7 @@
                 return redirect('/product','Usuário sem permissão.');
             }
         }
-        
+
 
         public function delete($params){
             if($_SESSION['dados_usuario']['nivelAcesso'] == 2){
@@ -127,7 +126,7 @@
                 'ID_do_produto' => 'required'
             );
             $resultValidation = validate($data,$validator);
-            
+
                 if($resultValidation['success']){
                     $product = new ProductModel();
                     $result = $product->delete($params);
