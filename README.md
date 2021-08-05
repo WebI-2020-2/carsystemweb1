@@ -63,10 +63,11 @@ php -S localhost:8000
 ```
 
 - Utilizar as seguintes credenciais:
-  - Usuário: monalyza
-  - Senha: 123
+  - Usuário: teste
+  - Senha: teste
 
 > ## Equipe
 
-| [<img src="https://avatars.githubusercontent.com/u/71106432?v=4" width=115><br><sub>Monalyza Lima</sub>](https://github.com/MonalyzaLima) |  [<img src="https://avatars.githubusercontent.com/u/51082468?v=4" width=115 > <br> <sub> Jaquellynne </sub>](https://github.com/Jaquellynne) |  [<img src="https://avatars.githubusercontent.com/u/48457675?v=4" width=115 > <br> <sub> Aldo Jonas </sub>](https://github.com/Aldojonas) | [<img src="https://avatars.githubusercontent.com/u/56159359?v=4" width=115 > <br> <sub> Lucas Samuel </sub>](https://github.com/lucasamuel) | [<img src="https://avatars.githubusercontent.com/u/52259539?v=4" width=115 > <br> <sub> Luis Felipe </sub>](https://github.com/kazok1) 
+| [<img src="https://avatars.githubusercontent.com/u/71106432?v=4" width=115><br><sub>Monalyza Lima</sub> <br> <sub> Backend </sub>](https://github.com/MonalyzaLima) |  [<img src="https://avatars.githubusercontent.com/u/51082468?v=4" width=115 > <br> <sub> Jaquellynne </sub> <br> <sub> Backend </sub>](https://github.com/Jaquellynne) |  [<img src="https://avatars.githubusercontent.com/u/48457675?v=4" width=115 > <br> <sub> Aldo Jonas </sub> <br> <sub> Frontend </sub>](https://github.com/Aldojonas) | [<img src="https://avatars.githubusercontent.com/u/56159359?v=4" width=115 > <br> <sub> Lucas Samuel </sub> <br> <sub> Frontend </sub>](https://github.com/lucasamuel) | [<img src="https://avatars.githubusercontent.com/u/52259539?v=4" width=115 > <br> <sub> Luis Felipe </sub> <br> <sub> Backend </sub>](https://github.com/kazok1) 
 | :---: | :---: | :---: | :---:| :---:
+
